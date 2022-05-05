@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    /* background-image: url(pic/bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo img {
+    height: 40px;
+    width: 100px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+a   {
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    color: black;
+}
+.nav a:not(first-child) {
+    margin-right: 20px;
+    font-weight: 500;
+} 
+
+main {
+    margin: 100px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSection h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* second section styles */
+.secondSection {
+    margin: 50px 0;
+}
+.secondSection > .secondSectionProp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSectionProp img {
+    border-radius: 15px;
+}
+
+.secondSectionProp h4 {
+    color: rgb(53, 118, 139);
+}
+
+.secondSectionProp a:hover {
+    text-decoration: underline;
+    filter: grayscale(40%);
+    -webkit-filter: grayscale(40%);
+    -moz-filter: grayscale(40%);
+}
+
+.thirdSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdSection a, .fourthSection a{
+    color: white;
+    background-color: rgb(53, 117, 139);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.thirdSection a:hover, .fourthSection a:hover {
+    background-color: rgba(58, 109, 126, 0.877);
+    transition: 0.8s;
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fourthLeft, .fourthRight {
+    width: 50%;
+}
+
+.fourthSection h2{
+    font-size: 2em;
+}
+
+.fourthLeft > div,
+.fourthRight a {
+    line-height: 3em;
+}
+
+.fourthSection input {
+    border: thin solid rgba(192, 192, 192, 0.678);
+    padding: 15px 30px;
+    font-size: 1em;
+}
+.fourthLeft button {
+    margin-top: 10px;
+    width: 518px;
+    padding: 0 30px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.767);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fourthLeft button:hover {
+    background-color: rgba(255, 0, 0, 0.678);
+}
+
+
+.fifthSection, .sixthSection, .sevenSection{
+    margin: 60px 0;
+}
+.fifthSectionHead, .fifthSectionProp .svg, .ninthSectionHead {
+    text-align: center;
+}
+.fifthSectionProp .svg h3 {
+    color: rgb(53, 117, 139);
+}
+.fifthSectionHead h2, .sixthSectionHead  h2,
+.sevenSectionHead h2, .ninthSectionHead h2 {
+    font-size: 2em;
+}
+.fifthSectionProp{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 10px;
+}
+
+.fifthSection .btn {
+    color: white;
+    background-color: rgb(53, 117, 139);
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+ 
+}
+.fifthSection .btnDiv{
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.cardOne, .cardTwo,
+.cardThree, .cardFour {
+    width: 265px;
+    cursor: pointer
+}
+.cardImg{
+    position: relative;
+    font-size: 1em;
+}
+.cardsVideo {
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+.cardsVideo:hover{
+    letter-spacing: 1px;
+    transition: 1s;
+    
+}
+.cards a{
+    color: black;
+}
+.cardOne img{
+    border-radius: 10px;
+}
+.sixthSectionHead, .sevenSectionHead {
+    display: flex;
+    justify-content: space-between;
+}
+.sixthSectionHead a, .sevenSectionHead > a {
+    font-size: 1em;
+    margin-top: 35px;
+    color: rgb(53, 117, 139);
+}
+.time {
+    color: rgba(49, 49, 49, 0.767);
+}
+
+.imgIcons {
+    display: flex;
+    justify-content: space-between;
+}
+.imgCircle img {
+    border-radius: 50%;
+    border: 5px white;
+    
+}
+.fa-solid {
+    color: silver;
+}
+
+.imgShift {
+   margin-left: -20px;
+   border: 5px solid rgba(255, 255, 255, 0.726);
+}
+
+
+/* seventh section styles starts */
+
+.sevenSectionCards {
+    display: flex;
+    justify-content: space-between;
+}
+.sevenSectionCard {
+    width: 360px;
+    height: 203px;
+    border: thin solid silver;
+    border-radius: 8px;
+}
+.sevenSectionCardTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sevenSectionCardTop img {
+    margin: 20px;
+}
+
+.newGroup {
+    color: rgb(53, 117, 139);
+}
+.newsTop {
+    color:black;
+
+}
+
+.sevenSectionCardTopContent {
+    margin-top: -5px;
+}
+
+hr {
+    color: rgba(224, 219, 219, 0.26);
+}
+
+.timeSeven {
+    font-size: 1em;
+}
+.sevenSectionCardContent {
+    padding: 0 20px;
+    color:rgba(102, 97, 97, 0.815);
+    width: 90%;
+}
+
+/* styles for the eighth div */
+
+.eightSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.eightSectionCenterDiv > div  {
+    margin-top: 35px;
+}
+.eightSectionCenterDiv{
+    text-align: center;
+    margin-top: 5px;
+}
+.eightSectionCenterDiv h3{
+    font-weight: 700;
+}
+.eightSectionCenterDownloadBtn span, .footerOnlineDirLinksRight span{
+   margin: 10px;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+/* ninth secttion styles */
+.ninthSection {
+    margin-top: 200px;
+}
+
+.ninthSectionCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ninthSectionCard{
+    width: 360px;
+    height: 399px;
+}
+
+.ninthSection a img:hover {
+    filter: grayscale(40%);
+    -webkit-filter: grayscale(40%);
+    -moz-filter: grayscale(40%);
+}
+.ninthSection .capitalize:hover {
+    text-decoration: underline; 
+}
+.ninthSection a p:hover {
+    text-decoration: none;
+}
+
+/* footer styles */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    padding: 20px 100px;
+}
+.footerHead{
+    display: flex;
+}
+
+.footerHeadBtn{
+    margin-left: 30px;
+    border: 3px solid white;
+    padding: 17px 20px 0;
+    border-radius: 5px;
+}
+.footerHeadBtn a {
+    color: white;
+}
+
+.footerNavs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNavs a li{
+    color: silver;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.footerOnlineDirLinks {
+    display: flex;
+    justify-content: space-between;
+}
+.footerOnlineDirLinksLeft i{
+    margin: 10px;
+    font-size: 1.7em;
+    color: silver;
+}
+.licence {
+    margin: 20px 0;
+}
+
+.licence a {
+    color: silver;
+    margin: 20px;
+    font-size: 0.8em;
+    font-weight: 450;
+}
