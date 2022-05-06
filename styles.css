@@ -6,16 +6,19 @@ body {
     background-attachment: fixed; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.logo {
+    width: 180px;
+}
 
 .logo img {
-    height: 40px;
-    width: 100px;
+    height: 55%;
+    width: 50%;
 
 }
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 2% 5%;
 }
 a   {
     text-decoration: none;
@@ -24,13 +27,13 @@ a   {
 nav a{
     color: black;
 }
-.nav a:not(first-child) {
-    margin-right: 20px;
+.nav a{
+    margin-right: 10px;
     font-weight: 500;
 } 
 
 main {
-    margin: 100px;
+    margin: 8%;
 }
 
 .firstSection {
@@ -43,21 +46,24 @@ main {
     font-size: 3em;
 }
 
+
 /* second section styles */
 .secondSection {
-    margin: 50px 0;
+    margin-top: 20%;
+    margin-bottom: 5%;
 }
 .secondSection > .secondSectionProp {
     display: flex;
     justify-content: space-between;
+    /* width: 100%; */
 }
 
 .secondSectionProp img {
     border-radius: 15px;
+    height: 80%; width: 90%;
 }
-
-.secondSectionProp h4 {
-    color: rgb(53, 118, 139);
+.secondSectionPropFirstImg {
+    width: 100%;
 }
 
 .secondSectionProp a:hover {
@@ -70,6 +76,7 @@ main {
 .thirdSection {
     display: flex;
     justify-content: space-between;
+    overflow: scroll;
 }
 
 .thirdSection a, .fourthSection a{
@@ -77,6 +84,7 @@ main {
     background-color: rgb(53, 117, 139);
     padding: 10px 20px;
     border-radius: 20px;
+    font-size: 0.9em;
 }
 
 .thirdSection a:hover, .fourthSection a:hover {
@@ -368,4 +376,34 @@ footer {
     margin: 20px;
     font-size: 0.8em;
     font-weight: 450;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 700px) {
+    .firstSection{
+        display: block;
+    }
+
+    .firstSection div {
+        width: 100%;
+    }
+
+    .firstSection h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+
+    /* second section resp */
+
+    .secondSection > .secondSectionProp {
+        display: block;
+        text-align: center;
+    }
+
+    /* third sectionresp */
+    
+    .thirdSection {
+        justify-content: space-around;
+    }
 }
