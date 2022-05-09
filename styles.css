@@ -97,12 +97,18 @@ main {
     justify-content: space-between;
     
 }
+
+
+.fourthSection h2{
+    font-size: 2em;
+}
+
 .fourthLeft, .fourthRight {
     width: 50%;
 }
 
-.fourthSection h2{
-    font-size: 2em;
+.fourthRight{
+    overflow: scroll;
 }
 
 .fourthLeft > div,
@@ -113,11 +119,12 @@ main {
 .fourthSection input {
     border: thin solid rgba(192, 192, 192, 0.678);
     padding: 15px 30px;
+    width: 35%;
     font-size: 1em;
 }
 .fourthLeft button {
     margin-top: 10px;
-    width: 518px;
+    width: 93%;
     padding: 0 30px;
     color: white;
     background-color: rgba(255, 0, 0, 0.767);
@@ -167,7 +174,7 @@ main {
 }
 .cardOne, .cardTwo,
 .cardThree, .cardFour {
-    width: 265px;
+    width: 30%;
     cursor: pointer
 }
 .cardImg{
@@ -293,6 +300,13 @@ hr {
 .eightSectionCenterDiv h3{
     font-weight: 700;
 }
+.eighthDivPhoneImg img{
+    height: 350px;
+}
+.eightSectionCenterDiv img{
+    height: 80px;
+}
+
 .eightSectionCenterDownloadBtn span, .footerOnlineDirLinksRight span{
    margin: 10px;
 }
@@ -406,4 +420,83 @@ footer {
     .thirdSection {
         justify-content: space-around;
     }
+
+    .thirdSection {
+        flex-wrap: wrap;
+        height: 100px;
+    }
+ 
+    .thirdSection a{
+        margin-top: 10px;
+    }
+
+    /* fourth section resp */
+    .fourthSection {
+        display: block;
+        
+    }
+    
+    .fourthLeft, .fourthRight {
+        width: 100%;
+    }
+    
+    /* fifth section styles resp */
+    .fifthSectionProp{
+        display: block;
+    }
+
+    .sixthSectionHead {
+        display: block;
+    }
+    .cards {
+        display: block;
+        /* width: 100%; */
+    }
+    .cardOne, .cardTwo,
+    .cardThree, .cardFour {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+
+    .cardsVideo {
+        position: absolute;
+        left: 75px;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    /* sevenSection resp*/
+
+    .sevenSectionCards {
+        display: block;
+    }
+    .sevenSectionCard {
+        width: 100%;
+        height: 203px;
+    }
+    
+    /* eigth section resp style */
+    .eighthDivPhoneImg img {
+        height: 150px;
+    }
+    .eightSectionCenterDiv img{
+        height: 50px;
+    }
+
+    /* ninth section resp */
+    .ninthSectionCards {
+        display: block;
+    }
+    
+    .ninthSectionCard{
+        width: 100%;
+    }
+
+    /* footer  resp*/
+    .footerNavs {
+        display: block;
+    }
+
 }
